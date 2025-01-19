@@ -1,0 +1,2 @@
+# VHDL Counter Overflow Bug
+This repository demonstrates a common error in VHDL code: integer overflow in a counter. The `buggy_counter.vhdl` file contains a counter that uses an integer type and does not handle the case where the counter reaches its maximum value. This can lead to unexpected behavior, such as the counter wrapping around to 0 or producing incorrect results. The `fixed_counter.vhdl` file demonstrates a solution that uses unsigned type to avoid the overflow issue.
